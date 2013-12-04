@@ -1,0 +1,31 @@
+<a id="showr">Am I required to participate in the evaluation system?</a>
+
+<p class="faq">No, participation is optional for all B-WET grantees. However we strongly encourage grantees to participate, if possible. This evaluation system is intended to collect data over the long term, so your participation this year will provide invaluable feedback for how it can be improved in the future. We anticipate that this evaluation system will have short-term and long-term benefits for programs, funders, and the field of environmental education broadly. The results will provide insight into how we can improve the NOAA B-WET program and tailor our services to you and the teachers and students you serve. Your input is valued and will contribute to a better B-WET program in the future, so please consider participating to the extent possible for your grant.</p>
+
+<br />
+<a id="showr">This is the question</a>
+
+<p class="faq">This is the answer</p>
+
+ 
+<script>
+var open = true;
+
+
+	$( "#showr" ).click(function() {
+		
+		if(open) {
+			$(this).next( "p.faq" ).show( "fast" );
+			open = !open;
+		}		
+	
+		else { 	
+  			$(this).next( "p.faq" ).hide( 1000 );
+			
+		}
+	});
+
+
+
+
+</script> 
